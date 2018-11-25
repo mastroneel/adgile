@@ -36,6 +36,10 @@ input, p {
   margin-top: 20px;
 }
 
+.sticky-logo-container {
+  display: none !important;
+}
+
 #primary-menu ul li > a {
   font-family: 'Arquitecta Black';
   transition: 0.2s;
@@ -52,16 +56,48 @@ input, p {
   text-transform: uppercase;
 }
 
+.navbar-tagline h5 {
+  line-height: 100px;
+  letter-spacing: 1px;
+}
+
+.sticky-header #logo {
+  display: none;
+}
+
+.sticky-header .nav-logo {
+  display: none !important
+}
+
+.sticky-header .sticky-logo-container {
+  display: inline !important;
+  float: left;
+  line-height: 60px;
+  padding-right: 30px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.sticky-header .sticky-logo-container .sticky-nav-logo {
+    height: 30px;
+}
+
+.sticky-header .navbar-tagline h5 {
+  line-height: 60px;
+  margin-left: 15px;
+  color: #0f102b;
+}
+
+#header.sticky-header:not(.static-sticky) #primary-menu > ul > li > a {
+  color: #0f102b;
+}
+
 @media (max-width: 991px) {
   .navbar-tagline {
     display: none;
   }
 }
 
-.navbar-tagline h5 {
-  line-height: 100px;
-  letter-spacing: 1px;
-}
+
 
 /* search bar styles */
 #btn_Search {
@@ -128,4 +164,14 @@ input, p {
 
 .contact-link {
   font-family: 'Arquitecta Book';
+}
+
+.real-time {
+  margin-top: 80px;
+}
+
+.icon-line2-arrow-up:before,
+.icon-line2-equalizer:before,
+.icon-tv:before {
+  color: #f04238;
 }
