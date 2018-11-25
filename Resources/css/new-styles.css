@@ -170,8 +170,8 @@ input, p {
   margin-top: 80px;
 }
 
-.icon-line2-arrow-up:before,
-.icon-line2-equalizer:before,
-.icon-tv:before {
+.icons-container .icon-line2-arrow-up:before,
+.icons-container .icon-line2-equalizer:before,
+.icons-container .icon-tv:before {
   color: #f04238;
 }
