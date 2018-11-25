@@ -1,0 +1,131 @@
+/* import fonts */
+@font-face {
+    font-family: 'Arquitecta Book';
+    src: url('fonts/arquitecta-book.ttf');
+}
+
+@font-face {
+    font-family: 'Arquitecta Black';
+    src: url('fonts/arquitecta-black.ttf');
+}
+
+/* general styles */
+body {
+  font-family: 'Arquitecta Book';
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Arquitecta Black';
+}
+
+input, p {
+  font-family: 'Arquitecta Book';
+}
+
+/* *************** */
+/* homepage styles */
+/* *************** */
+
+/* navigation styles */
+#logo {
+  height: 100px;
+}
+
+.nav-logo {
+  height: 50px !important;
+  margin-top: 20px;
+}
+
+#primary-menu ul li > a {
+  font-family: 'Arquitecta Black';
+  transition: 0.2s;
+}
+
+#primary-menu ul li a:hover div, .sub-menu a:hover, #top-search-trigger-didntwork:hover i:before {
+  color: #f04238 !important;
+  transition: 0.2s;
+}
+
+.navbar-tagline {
+  float: left;
+  font-family: 'Arquitecta Black';
+  text-transform: uppercase;
+}
+
+@media (max-width: 991px) {
+  .navbar-tagline {
+    display: none;
+  }
+}
+
+.navbar-tagline h5 {
+  line-height: 100px;
+  letter-spacing: 1px;
+}
+
+/* search bar styles */
+#btn_Search {
+  background: #f04238;
+  border: 1px solid #f04238;
+}
+
+.bolt-button {
+  height: 25px;
+  text-align: center;
+}
+
+/* hero styles */
+
+.slider-caption.slider-caption-center {
+  top: 260px !important;
+}
+
+.slider-caption.slider-caption-center p {
+  margin-top: -5px;
+}
+
+.slider-caption.slider-caption-bottom {
+  top: 260px !important;
+}
+
+.hero-logo {
+  height: 4.5rem;
+  margin-top: -2.5rem;
+}
+
+.dark .slider-caption, .dark .slider-caption h2 {
+  font-family: 'Arquitecta Black';
+  font-size: 4.5rem;
+  color: #fff;
+}
+
+@media (max-height: 780px) {
+  .slider-caption-top {
+    top: 160px;
+  }
+  .slider-caption.slider-caption-center {
+    top: 230px !important;
+  }
+  .slider-caption.slider-caption-bottom {
+    top: 240px !important;
+  }
+  .slider-caption.slider-caption-bottom .col_one_third {
+    margin-top: -40px;
+  }
+  .slider-caption.slider-caption-bottom .col_one_third .counter {
+    margin-top: -40px;
+  }
+}
+
+/* page styles */
+#headingblock {
+  font-family: 'Arquitecta Black';
+}
+
+.feature-box h3 {
+  font-family: 'Arquitecta Black';
+}
+
+.contact-link {
+  font-family: 'Arquitecta Book';
+}
