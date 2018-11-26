@@ -12,6 +12,7 @@
 /* general styles */
 body {
   font-family: 'Arquitecta Book';
+  color: #0f102b;
 }
 
 h1, h2, h3, h4, h5 {
@@ -242,10 +243,54 @@ a, #primary-menu ul li.current > a {
   margin-top: 80px;
 }
 
+.fancy-title h4 {
+  color: #0f102b;
+}
 
-/* *************** */
-/* about us styles */
-/* *************** */
+.feature-box.fbox-plain.fbox-small h3,
+.feature-box.fbox-plain.fbox-small p {
+  color: #0f102b;
+}
+
+.heading-block h1,
+.heading-block h2,
+.heading-block h3,
+.heading-block h4,
+.emphasis-title h1,
+.emphasis-title h2 {
+  color: #0f102b;
+}
+
+.heading-block > span:not(.before-heading) {
+  color: #0f102b;
+}
+
+.heading-block:after {
+  border-top: 2px solid #0f102b;
+}
+
+h1 > span:not(.nocolor):not(.badge),
+h2 > span:not(.nocolor):not(.badge),
+h3 > span:not(.nocolor):not(.badge),
+h4 > span:not(.nocolor):not(.badge),
+h5 > span:not(.nocolor):not(.badge),
+h6 > span:not(.nocolor):not(.badge) {
+  color: #f04238;
+}
+
+.fancy-title.title-bottom-border h1,
+.fancy-title.title-bottom-border h2,
+.fancy-title.title-bottom-border h3,
+.fancy-title.title-bottom-border h4,
+.fancy-title.title-bottom-border h5,
+.fancy-title.title-bottom-border h6 {
+  border-bottom: 2px solid #f04238;
+}
+
+
+/* ***************** */
+/* login page styles */
+/* ***************** */
 
 .login-header .navbar-tagline h5 {
   color: #0f102b;
