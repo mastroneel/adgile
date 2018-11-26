@@ -6,7 +6,18 @@
 <!DOCTYPE html>
 <html lang="en-au">
 
-<head><meta http-equiv="content-type" content="text/html; charset=utf-8" /><meta name="author" content="SemiColonWeb" /><link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i" rel="stylesheet" type="text/css" /><link rel="stylesheet" href="Resources/css/bootstrap.css" type="text/css" /><link rel="stylesheet" href="Resources/style.css" type="text/css" /><link rel="stylesheet" href="Resources/css/dark.css" type="text/css" /><link rel="stylesheet" href="Resources/css/font-icons.css" type="text/css" /><link rel="stylesheet" href="Resources/css/animate.css" type="text/css" /><link rel="stylesheet" href="Resources/css/magnific-popup.css" type="text/css" /><link rel="stylesheet" href="Resources/css/responsive.css" type="text/css" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<head><meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="author" content="SemiColonWeb" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="Resources/css/bootstrap.css" type="text/css" />
+  <link rel="stylesheet" href="Resources/style.css" type="text/css" />
+  <link rel="stylesheet" href="Resources/css/dark.css" type="text/css" />
+  <link rel="stylesheet" href="Resources/css/font-icons.css" type="text/css" />
+  <link rel="stylesheet" href="Resources/css/animate.css" type="text/css" />
+  <link rel="stylesheet" href="Resources/css/magnific-popup.css" type="text/css" />
+  <link rel="stylesheet" href="Resources/css/responsive.css" type="text/css" />
+  <link rel="stylesheet" href="Resources/css/new-styles.css" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>
 
 </title></head>
@@ -24,14 +35,14 @@
 
         <!-- Document Wrapper
 	============================================= -->
-        <div id="wrapper" class="clearfix">
+        <div id="wrapper" class="clearfix login-page-wrapper">
 
 
 
             <!-- Header
 		============================================= -->
-            
-<header id="header" class="transparent-header full-header" data-sticky-class="not-dark">
+
+<header id="header" class="transparent-header full-header login-header" data-sticky-class="not-dark">
 
                 <div id="header-wrap">
 
@@ -41,12 +52,24 @@
 
                         <!-- Logo
                     ============================================= -->
-                        <div id="logo">
-                            <a href="Default.html" class="standard-logo" data-dark-logo="Resources/images/logo-dark.png">
-                                <img src="Resources/images/logo.png" alt="Adgile Logo"></a>
-                            <a href="Default.html" class="retina-logo" data-dark-logo="Resources/images/logo-dark@2x.png">
-                                <img src="Resources/images/logo@2x.png" alt="Adgile Logo"></a>
-                        </div>
+                    <div id="logo">
+                        <a href="Default.html" class="standard-logo">
+                            <img class="nav-logo" src="Resources/images/AgileLogo_RGB_RedNavy_NoTagline.png" alt="Adgile Logo">
+                        </a>
+
+                        <a href="Default.html" class="retina-logo">
+                            <img class="nav-logo" src="Resources/images/AgileLogo_RGB_RedWhite_NoTagline.png" alt="Adgile Logo">
+                            <img class="sticky-nav-logo" src="Resources/images/AgileLogo_RGB_Red_NoTagline.png" alt="Adgile Logo">
+                        </a>
+                    </div>
+                    <div class="sticky-logo-container">
+                      <a href="Default.html">
+                          <img class="sticky-nav-logo" src="Resources/images/AgileLogo_RGB_Red_NoTagline.png" alt="Adgile Logo">
+                      </a>
+                    </div>
+                    <div class="navbar-tagline">
+                      <h5>The Reflex of Intelligence</h5>
+                    </div>
                         <!-- #logo end -->
                         <!-- Primary Navigation
                     ============================================= -->
@@ -65,8 +88,8 @@
                                     </a>
                                 </li>
 
-                                <li><a href='LoginRegister.html'><div  >Login / Register</div> </a></li> 
-                                
+                                <li><a href='LoginRegister.html'><div>Login / Register</div> </a></li>
+
                             </ul>
 
 						    <ul class="dark">
@@ -100,37 +123,37 @@
                 <div class="container clearfix">
                     <h1>
                         Login or Register </h1>
-                        <span id="lbl_PageSubTitle">Get unrestrictive access to our advert database.</span> 
-                 
+                        <span id="lbl_PageSubTitle">Get unrestrictive access to our advert database.</span>
+
                 </div>
 
             </section>
             <!-- #page-title end -->
 
 
-            
+
 
     <section id="content">
 
         <div class="content-wrap">
 
             <div class="container clearfix">
-                
+
 					<div class="tabs divcenter nobottommargin clearfix" id="tab-login-register" style="max-width: 500px;">
 
 						<ul class="tab-nav tab-nav2 center clearfix">
-							<li class="inline-block"><a href="#tab-login">Login</a></li>
-							<li class="inline-block"><a href="#tab-register">Register</a></li>
+							<li class="inline-block"><a href="#tab-login" class="login-button">Login</a></li>
+							<li class="inline-block"><a href="#tab-register" class="register-button">Register</a></li>
 						</ul>
 
-                         
+
                         <input type="hidden" name="ctl00$ContentPlaceHolder1$hdnSelectedTab" id="ContentPlaceHolder1_hdnSelectedTab" value="0" />
 
 						<div class="tab-container">
 							<div class="tab-content clearfix" id="tab-login">
 								<div class="card nobottommargin">
 									<div class="card-body" style="padding: 40px;">
-										
+
 
 											<h3>Login to your Account</h3>
 
@@ -148,9 +171,9 @@
                                                 <input type="submit" name="ctl00$ContentPlaceHolder1$btn_Login" value="Login" id="ContentPlaceHolder1_btn_Login" class="button button-3d button-black nomargin" />
                                                 <a href="Profile/ForgotPassword.html" class="fright">Forgot Password?</a>
                                             </div><br /><br />
-                                            
 
-										
+
+
 									</div>
 								</div>
 							</div>
@@ -160,7 +183,7 @@
 									<div class="card-body" style="padding: 40px;">
 										<h3>Register for an Account</h3>
 
-										
+
 
                                         <div class="col_full">
                                             <label for="register-form-name">Name:</label>
@@ -230,7 +253,7 @@
 						</div>
 
 					</div>
-                                
+
             </div>
 
         </div>
@@ -242,7 +265,7 @@
 
             <!-- Footer
 		============================================= -->
-            
+
 <footer id="footer" class="dark">
 
     <div class="container">
@@ -251,24 +274,24 @@
                 ============================================= -->
         <div class="footer-widgets-wrap clearfix">
 
-         
+
 
                 <div class="col_one_fourth">
 
                     <div class="widget clearfix">
 
-                        <img src="Resources/images/footer-widget-logo.png" alt="" class="footer-logo">
+                        <img src="Resources/images/AgileLogo_RGB_White.png" alt="" class="footer-logo">
 
 
 
-                        <div style="background: url('Resources/images/world-map.png') no-repeat center center; background-size: 100%;">
+                        <div>
                             <address>
                                 <strong>Headquarters:</strong><br>
                                 321 Water Street,
                                             <br>
                                 Fortitude Valley, Brisbane,<br>
                                 4006, QLD<br />
-                                
+
                                 <abbr title="Email Address"><strong>Email:</strong></abbr>
                                 services(a)adgile.media
                             </address>
@@ -315,7 +338,7 @@
 
                 </div>
 
-            
+
 
             <div class="col_one_fourth col_last">
 
@@ -326,7 +349,7 @@
                     <div class="widget-subscribe-form-result"></div>
                     <div id="widget-subscribe-form" class="nobottommargin">
                         <a href="contact.html" class="btn btn-success">Contact Us</a>
-                        </div> 
+                        </div>
                     </div>
             </div>
 
@@ -366,7 +389,7 @@
         </div>
         <!-- #wrapper end -->
 
-    
+
 <div class="aspNetHidden">
 
 	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="F79FF77C" />
@@ -390,13 +413,13 @@
     <script src="Resources/js/chart.js"></script>
     <script src="Resources/js/chart-utils.js"></script>
 
-    
+
 
 
         <script type="text/javascript">
 
             jQuery(document).ready(function () {
-                
+
                 $(function () {
                     $("#tab-login-register").tabs({
                         activate: function () {
@@ -408,7 +431,7 @@
                 });
 
             });
-            
+
     </script>
 
 

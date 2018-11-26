@@ -22,6 +22,11 @@ input, p {
   font-family: 'Arquitecta Book';
 }
 
+.navy {
+  color: #0f102b;
+}
+
+
 /* *************** */
 /* homepage styles */
 /* *************** */
@@ -29,6 +34,14 @@ input, p {
 /* navigation styles */
 #logo {
   height: 100px;
+}
+
+/* #primary-menu ul li > a {
+  color: #fff;
+} */
+
+a, #primary-menu ul li.current > a {
+  color: #f04238;
 }
 
 .nav-logo {
@@ -59,6 +72,7 @@ input, p {
 .navbar-tagline h5 {
   line-height: 100px;
   letter-spacing: 1px;
+  /* color: #fff; */
 }
 
 .sticky-header #logo {
@@ -164,6 +178,7 @@ input, p {
 
 .contact-link {
   font-family: 'Arquitecta Book';
+  background-color: #f04238 !important;
 }
 
 .real-time {
@@ -174,4 +189,117 @@ input, p {
 .icons-container .icon-line2-equalizer:before,
 .icons-container .icon-tv:before {
   color: #f04238;
+}
+
+.button-container {
+  width: 200px;
+  margin: 40px auto 20px auto;
+  text-align: center;
+}
+
+.search-for-more-button {
+  background: #0f102b;
+  border: 1px solid #0f102b;
+  padding: 15px 20px 12px 20px;
+  border-radius: 4px;
+  color: #fff;
+  font: 'Arquitecta Black';
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.2s;
+}
+
+.search-for-more-button:hover {
+  background: #f04238;
+  border: 1px solid #f04238;
+  color: #fff;
+  transition: 0.2s;
+}
+
+/* footer styles */
+#footer {
+  background: #0f102b !important;
+}
+
+#footer .btn-success {
+  background: #fff;
+  border: 1px solid #fff;
+  color: #0f102b;
+  font-weight: bold;
+}
+
+.footer-logo {
+  height: 60px;
+}
+
+
+/* *************** */
+/* about us styles */
+/* *************** */
+
+.nine-container {
+  margin-top: 80px;
+}
+
+
+/* *************** */
+/* about us styles */
+/* *************** */
+
+.login-header .navbar-tagline h5 {
+  color: #0f102b;
+}
+
+.login-header #primary-menu ul li > a {
+  color: #0f102b;
+}
+
+.login-page-wrapper #page-title h1,
+.login-page-wrapper #page-title #lbl_PageSubTitle {
+  color: #0f102b;
+  text-align: center;
+}
+
+.login-page-wrapper #page-title span {
+  font-family: 'Arquitecta Book';
+}
+
+.login-page-wrapper .login-button,
+.login-page-wrapper .register-button {
+  font-family: 'Arquitecta Black';
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.login-page-wrapper .login-button,
+.login-page-wrapper ul.tab-nav.tab-nav2 li.ui-state-active a {
+  background: #f04238;
+  border: 1px solid #f04238;
+  color: #fff;
+}
+
+.login-page-wrapper .register-button,
+.login-page-wrapper ul.tab-nav.tab-nav2 li a {
+  background: #fff;
+  border: 1px solid #0f102b;
+  color: #0f102b;
+}
+
+.login-page-wrapper h3 {
+  color: #0f102b;
+}
+
+.login-page-wrapper .tab-content.clearfix.ui-tabs-panel.ui-corner-bottom.ui-widget-content label {
+  font-family: 'Arquitecta Black';
+  color: #0f102b;
+}
+
+.login-page-wrapper .fright {
+  color: #f04238;
+}
+
+.login-page-wrapper .button-black {
+  background: #0f102b;
+  border: 1px solid #0f102b;
 }
