@@ -239,6 +239,16 @@ a, #primary-menu ul li.current > a {
 /* about us styles */
 /* *************** */
 
+.about-us-wrapper #primary-menu ul li > a,
+.about-us-wrapper .navbar-tagline h5 {
+  color: #fff;
+}
+
+.about-us-wrapper .sticky-header .navbar-tagline h5 {
+  color: #0f102b;
+}
+
+
 .nine-container {
   margin-top: 80px;
 }
