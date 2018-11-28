@@ -27,6 +27,38 @@ input, p {
   color: #0f102b;
 }
 
+.contact-button {
+  color: #f04238;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font-family: 'Arquitecta Black';
+  text-transform: uppercase;
+  font-size: 20px;
+  padding: 15px 25px 13px 25px;
+  transition: 0.2s;
+  line-height: 100%;
+  transition: 0.2s;
+}
+
+.contact-button i {
+  font-size: 18px;
+}
+
+.contact-button:hover .fa-chevron-right {
+  padding-left: 6px;
+  transition: 0.2s;
+}
+
+#gotoTop {
+  background: #f04238;
+  border-color: #f04238;
+}
+
+#gotoTop:hover {
+  background: #addab8;
+  border-color: #addab8;
+}
 
 /* *************** */
 /* homepage styles */
@@ -36,10 +68,6 @@ input, p {
 #logo {
   height: 100px;
 }
-
-/* #primary-menu ul li > a {
-  color: #fff;
-} */
 
 a, #primary-menu ul li.current > a {
   color: #f04238;
@@ -113,11 +141,17 @@ a, #primary-menu ul li.current > a {
 }
 
 
-
 /* search bar styles */
 #btn_Search {
   background: #f04238;
   border: 1px solid #f04238;
+  transition: 0.2s;
+}
+
+#btn_Search:hover {
+  background: #57c5cb;
+  border: 1px solid #57c5cb;
+  transition: 0.2s;
 }
 
 .bolt-button {
@@ -126,6 +160,41 @@ a, #primary-menu ul li.current > a {
 }
 
 /* hero styles */
+
+.icon-angle-down {
+  font-size: 50px;
+  margin-top: -15px;
+}
+
+.pulse {
+  animation: pulse 1s infinite;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    margin-top: -15px;
+  }
+  50% {
+    margin-top: -10px;
+  }
+  100% {
+    margin-top: -15px;
+  }
+}
+@keyframes pulse {
+  0% {
+    margin-top: -15px;
+  }
+  50% {
+    margin-top: -10px;
+  }
+  100% {
+    margin-top: -15px;
+  }
+}
+
+
+
 
 .slider-caption.slider-caption-center {
   top: 260px !important;
@@ -223,6 +292,10 @@ a, #primary-menu ul li.current > a {
   background: #0f102b !important;
 }
 
+.about-us-wrapper .footer-stick {
+  padding-bottom: 120px;
+}
+
 #footer .btn-success {
   background: #fff;
   border: 1px solid #fff;
@@ -232,6 +305,17 @@ a, #primary-menu ul li.current > a {
 
 .footer-logo {
   height: 60px;
+}
+
+#footer a:hover {
+  color: #addab8;
+  transition: 0.2s;
+}
+
+#footer a.btn-success:hover {
+  background: #addab8;
+  color: #0f102b;
+  transition: 0.2s;
 }
 
 
