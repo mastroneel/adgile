@@ -50,6 +50,10 @@ input, p {
   transition: 0.2s;
 }
 
+.red {
+  color: #f04238;
+}
+
 #gotoTop {
   background: #f04238;
   border-color: #f04238;
@@ -589,10 +593,10 @@ a, #primary-menu ul li.current > a {
 /* about us styles */
 /* *************** */
 
-.about-us-wrapper #primary-menu ul li > a,
+/* .about-us-wrapper #primary-menu ul li > a,
 .about-us-wrapper .navbar-tagline h5 {
   color: #fff;
-}
+} */
 
 .about-us-wrapper .sticky-header .navbar-tagline h5 {
   color: #0f102b;
@@ -672,6 +676,43 @@ h6 > span:not(.nocolor):not(.badge) {
   padding: 0;
 }
 
+.about-us-logo {
+  height: 45px;
+  margin-top: -25px;
+}
+
+.about-us-wrapper #page-title h3 {
+  font-family: 'Arquitecta Black';
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 15px;
+  /* font-weight: bold; */
+}
+
+.about-us-wrapper #page-title p {
+  font-size: 20px;
+  line-height: 2;
+  margin-top: -20px;
+}
+
+.about-tagline {
+  text-align: center;
+  color: #0f102b;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.about-hero-text {
+  color: #f0f2f3;
+}
+
+.about-header-text li a {
+  color: #fff !important;
+}
+
+.about-header-text h5 {
+  color: #fff !important;
+}
 
 
 /* ***************** */
