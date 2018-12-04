@@ -885,16 +885,14 @@ h6 > span:not(.nocolor):not(.badge) {
   border-color: #0f102b;
   font-family: 'Arquitecta Black';
   letter-spacing: 1px;
-}
-
-.search-page-wrapper footer {
-  margin-top: 100px;
+  text-align: center;
 }
 
 .search-page-wrapper .button.button-rounded.side-panel-trigger:hover {
   background: #addab8;
   border-color: #addab8;
   color: #0f102b;
+  text-align: center;
 }
 
 .search-page-wrapper .portfolio-desc h3 {
@@ -941,4 +939,8 @@ h6 > span:not(.nocolor):not(.badge) {
 .tagcloud a:hover {
   color: #f04238 !important;
   border-color: #f04238 !important;
+}
+
+.search-page-wrapper footer {
+  margin-top: 100px;
 }
