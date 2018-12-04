@@ -164,6 +164,30 @@ a, #primary-menu ul li.current > a {
   color: #0f102b;
 }
 
+
+.dark #primary-menu:not(.not-dark) ul ul,
+ .dark #primary-menu:not(.not-dark) ul li .mega-menu-content,
+  #primary-menu.dark ul ul,
+   #primary-menu.dark ul li .mega-menu-content {
+     background-color: #0f102b;
+     border-color: #0f102b;
+     color: #fff !important;
+     border-top-color: #f04238;
+   }
+
+.dark #primary-menu:not(.not-dark) ul ul li > a,
+ #primary-menu.dark ul ul li > a {
+   color: #fff !important;
+   letter-spacing: 1px;
+   transition: 0.2s;
+ }
+
+ .dark #primary-menu:not(.not-dark) ul ul li > a:hover,
+  #primary-menu.dark ul ul li > a:hover {
+    color: #addab8 !important;
+    transition: 0.2s;
+  }
+
 @media (max-width: 991px) {
   .navbar-tagline {
     display: none;
@@ -774,4 +798,147 @@ h6 > span:not(.nocolor):not(.badge) {
 .login-page-wrapper .button-black {
   background: #0f102b;
   border: 1px solid #0f102b;
+}
+
+
+/* ******************* */
+/* contact page styles */
+/* ******************* */
+
+
+.contact-page-wrapper .navbar-tagline h5,
+.contact-page-wrapper #primary-menu li a,
+.contact-page-wrapper #header i {
+  color: #0f102b;
+}
+
+.contact-page-wrapper #page-title h1 {
+  font-family: 'Arquitecta Black';
+  color: #0f102b;
+}
+
+.contact-page-wrapper #page-title #lbl_PageSubTitle {
+  font-family: 'Arquitecta Book';
+  color: #f04238;
+}
+
+.contact-page-wrapper .fancy-title h3 {
+  font-family: 'Arquitecta Black';
+  color: #0f102b;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contact-page-wrapper label {
+  font-family: 'Arquitecta Black';
+  color: #0f102b;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.contact-page-wrapper input,
+.contact-page-wrapper textarea,
+.contact-page-wrapper select {
+  border: 2px solid #0f102b !important;
+  border-radius: 5px !important;
+  /* border-bottom: 3px solid #0f102b; */
+  color: #0f102b !important;
+  font-family: 'Arquitecta Book';
+  height: 40px;
+}
+
+/* .contact-page-wrapper select {
+  border: 2px solid #0f102b !important;
+  color: #0f102b;
+  font-family: 'Arquitecta Book';
+} */
+
+.contact-page-wrapper #ContentPlaceHolder1_btn_Send {
+  background: #f04238 !important;
+  border-color: #f04238 !important;
+  font-family: 'Arquitecta Black';
+  color: #fff !important;
+}
+
+.contact-page-wrapper p {
+  color: #0f102b !important;
+}
+
+.contact-page-wrapper footer {
+  padding-top: 40px;
+}
+
+
+
+/* ******************* */
+/* search page styles */
+/* ******************* */
+
+.search-page-search,
+.search-page-search::placeholder  {
+  color: #0f102b;
+}
+
+.search-page-wrapper .button.button-rounded.side-panel-trigger {
+  background: #0f102b;
+  border-color: #0f102b;
+  font-family: 'Arquitecta Black';
+  letter-spacing: 1px;
+}
+
+.search-page-wrapper footer {
+  margin-top: 100px;
+}
+
+.search-page-wrapper .button.button-rounded.side-panel-trigger:hover {
+  background: #addab8;
+  border-color: #addab8;
+  color: #0f102b;
+}
+
+.search-page-wrapper .portfolio-desc h3 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.search-page-wrapper .side-panel-wrap .widget.clearfix h4 {
+   color: #0f102b;
+}
+
+.search-page-wrapper .side-panel-wrap img {
+  width: 70px;
+  height: auto;
+}
+
+.search-page-wrapper .entry-title h4 a {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #0f102b !important;
+}
+
+.search-page-wrapper .entry-title h4 a:hover {
+  color: #f04238 !important;
+}
+
+.search-page-wrapper #ui-id-1,
+.search-page-wrapper #ui-id-2 {
+  color: #0f102b;
+  font-family: 'Arquitecta Black';
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.tabs.tabs-tb ul.tab-nav li.ui-tabs-active a {
+  border-top: 3px solid #f04238;
+}
+
+.tagcloud a {
+  color: #0f102b;
+  border-color: #0f102b;
+}
+
+.tagcloud a:hover {
+  color: #f04238 !important;
+  border-color: #f04238 !important;
 }
