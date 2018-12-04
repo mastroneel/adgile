@@ -805,6 +805,14 @@ h6 > span:not(.nocolor):not(.badge) {
 /* contact page styles */
 /* ******************* */
 
+.contact-page-wrapper {
+  max-width: 100vw;
+  overflow: hidden;
+}
+
+.contact-go-to-top {
+  opacity: 1 !important;
+}
 
 .contact-page-wrapper .navbar-tagline h5,
 .contact-page-wrapper #primary-menu li a,
