@@ -34,6 +34,7 @@ img {
   image-rendering: optimize-contrast;         /* CSS3 Proposed  */
   image-rendering:crisp-edges;
   image-rendering: optimizeQuality;
+  -ms-interpolation-mode: bicubic;
 }
 
 #logo a img {
