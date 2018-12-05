@@ -456,10 +456,10 @@ a, #primary-menu ul li.current > a {
     height: 600px;
   }
   #slider h2 {
-    font-size: 30px;
+    font-size: 25px;
   }
   #slider h2 .hero-logo {
-    height: 35px;
+    height: 30px;
     margin-top: -1rem
   }
   #slider .btn-group {
