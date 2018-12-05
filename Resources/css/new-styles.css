@@ -108,7 +108,7 @@ a, #primary-menu ul li.current > a {
 }
 
 .nav-logo {
-  display: none !important
+  display: none !important;
   height: 50px !important;
   margin-top: 20px;
 }
@@ -118,7 +118,7 @@ a, #primary-menu ul li.current > a {
     display: block !important;
   }
   .nav-logo {
-    display: block !important
+    display: block !important;
     height: 50px !important;
     margin-top: 15px;
     z-index: 10000;
