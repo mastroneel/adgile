@@ -10,6 +10,7 @@
 }
 
 /* general styles */
+
 body {
   font-family: 'Arquitecta Book';
   color: #0f102b;
@@ -21,6 +22,27 @@ h1, h2, h3, h4, h5 {
 
 input, p {
   font-family: 'Arquitecta Book';
+}
+
+img {
+  /* image-rendering: auto; */
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering:-moz-crisp-edges;          /* Firefox        */
+  image-rendering:-o-crisp-edges;            /* Opera          */
+  image-rendering:-webkit-optimize-contrast; /* Safari         */
+  image-rendering: optimize-contrast;         /* CSS3 Proposed  */
+  image-rendering:crisp-edges;
+  image-rendering: optimizeQuality;
+}
+
+#logo a img {
+  image-rendering:-moz-crisp-edges;          /* Firefox        */
+  image-rendering:-o-crisp-edges;            /* Opera          */
+  image-rendering:-webkit-optimize-contrast; /* Safari         */
+  image-rendering: optimize-contrast;         /* CSS3 Proposed  */
+  image-rendering:crisp-edges;
+  image-rendering: optimizeQuality;
 }
 
 .navy {
@@ -86,6 +108,7 @@ a, #primary-menu ul li.current > a {
 }
 
 .nav-logo {
+  display: none !important
   height: 50px !important;
   margin-top: 20px;
 }
@@ -94,6 +117,12 @@ a, #primary-menu ul li.current > a {
   .nav-logo-desktop {
     display: block !important;
   }
+  .nav-logo {
+    display: block !important
+    height: 50px !important;
+    margin-top: 20px;
+  }
+
 }
 
 @media (max-width: 992px) {
