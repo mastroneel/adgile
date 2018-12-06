@@ -662,7 +662,11 @@ a, #primary-menu ul li.current > a {
 } */
 
 .about-us-wrapper .sticky-header .navbar-tagline h5 {
-  color: #0f102b;
+  color: #0f102b !important;
+}
+
+.about-us-wrapper .sticky-header #primary-menu a {
+  color: #0f102b !important;
 }
 
 
