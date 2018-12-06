@@ -1,5 +1,5 @@
 /* import fonts */
-@font-face {
+/* @font-face {
     font-family: 'Arquitecta Book';
     src: url('fonts/arquitecta-book.ttf');
 }
@@ -7,7 +7,23 @@
 @font-face {
     font-family: 'Arquitecta Black';
     src: url('fonts/arquitecta-black.ttf');
-}
+} */
+
+@font-face {
+	font-family: 'Arquitecta Book';
+	src: url('fonts/arquitecta-book.eot'); /* IE9 Compat Modes */
+	src: url('fonts/arquitecta-book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	     url('fonts/arquitecta-book.woff') format('woff'), /* Modern Browsers */
+	     url('fonts/arquitecta-book.ttf')  format('truetype'); /* Safari, Android, iOS */
+	}
+
+  @font-face {
+  	font-family: 'Arquitecta Black';
+  	src: url('fonts/arquitecta-black.eot'); /* IE9 Compat Modes */
+  	src: url('fonts/arquitecta-black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  	     url('fonts/arquitecta-black.woff') format('woff'), /* Modern Browsers */
+  	     url('fonts/arquitecta-black.ttf')  format('truetype'); /* Safari, Android, iOS */
+  	}
 
 /* general styles */
 
@@ -26,25 +42,17 @@ input, p {
 
 img {
   /* image-rendering: auto; */
-  image-rendering: -moz-crisp-edges;
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering:-moz-crisp-edges;          /* Firefox        */
-  image-rendering:-o-crisp-edges;            /* Opera          */
-  image-rendering:-webkit-optimize-contrast; /* Safari         */
-  image-rendering: optimize-contrast;         /* CSS3 Proposed  */
-  image-rendering:crisp-edges;
-  image-rendering: optimizeQuality;
+  /* image-rendering: -moz-crisp-edges; */
+  /* image-rendering: -webkit-optimize-contrast; */
+  /* image-rendering:-moz-crisp-edges;          /* Firefox        */
+  /* image-rendering:-o-crisp-edges;            /* Opera          */
+  /* image-rendering:-webkit-optimize-contrast; /* Safari         */
+  /* image-rendering: optimize-contrast;         /* CSS3 Proposed  */
+  /* image-rendering:crisp-edges;
+  image-rendering: optimizeQuality; */
   -ms-interpolation-mode: bicubic;
 }
 
-#logo a img {
-  image-rendering:-moz-crisp-edges;          /* Firefox        */
-  image-rendering:-o-crisp-edges;            /* Opera          */
-  image-rendering:-webkit-optimize-contrast; /* Safari         */
-  image-rendering: optimize-contrast;         /* CSS3 Proposed  */
-  image-rendering:crisp-edges;
-  image-rendering: optimizeQuality;
-}
 
 .navy {
   color: #0f102b;
