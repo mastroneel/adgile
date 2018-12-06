@@ -436,11 +436,11 @@ a, #primary-menu ul li.current > a {
   .swiper_wrapper:not(.force-full-screen),
   .swiper_wrapper:not(.force-full-screen):not(.canvas-slider-grid)
   .swiper-slide {
-    height: 390px !important;
+    height: 250px !important;
   }
   #slide-video {
     width: auto;
-    height: 600px;
+    height: 400px;
   }
   #slider h2 {
     font-size: 40px;
@@ -449,13 +449,30 @@ a, #primary-menu ul li.current > a {
     height: 45px;
     margin-top: -1.5rem
   }
+  .slider-caption.slider-caption-center {
+    top: 120px !important;
+  }
   #slider .btn-group {
     min-width: 400px;
+  }
+  #mobilesearch {
+    display: block !important;
+    margin-top: -100px;
+  }
+  #mobilesearch input {
+    border: 2px solid #ccc;
+  }
+  #btn_Mobilesearch {
+    background-color: #f04238;
+    border-color: #f04238;
+  }
+  #search_box {
+    display: none !important;
   }
 }
 
 @media (max-width: 488px) {
-  .swiper_wrapper:not(.force-full-screen),
+  /* .swiper_wrapper:not(.force-full-screen),
   .swiper_wrapper:not(.force-full-screen):not(.canvas-slider-grid)
   .swiper-slide {
     height: 390px !important;
@@ -463,7 +480,7 @@ a, #primary-menu ul li.current > a {
   #slide-video {
     width: auto;
     height: 600px;
-  }
+  } */
   #slider h2 {
     font-size: 25px;
   }
@@ -471,16 +488,16 @@ a, #primary-menu ul li.current > a {
     height: 30px;
     margin-top: -1rem
   }
-  #slider .btn-group {
+  /* #slider .btn-group {
     min-width: 300px;
   }
   #slider .btn-group input {
     font-size: 14px;
-  }
+  } */
 }
 
 @media (max-width: 400px) {
-  .swiper_wrapper:not(.force-full-screen),
+  /* .swiper_wrapper:not(.force-full-screen),
   .swiper_wrapper:not(.force-full-screen):not(.canvas-slider-grid)
   .swiper-slide {
     height: 390px !important;
@@ -488,7 +505,7 @@ a, #primary-menu ul li.current > a {
   #slide-video {
     width: auto;
     height: 600px;
-  }
+  } */
   #slider h2 {
     font-size: 20px;
   }
@@ -496,7 +513,7 @@ a, #primary-menu ul li.current > a {
     height: 25px;
     margin-top: -0.5rem
   }
-  #slider .btn-group {
+  /* #slider .btn-group {
     min-width: 290px;
   }
   #slider .btn-group input {
@@ -504,7 +521,7 @@ a, #primary-menu ul li.current > a {
   }
   #slider .container.clearfix {
     padding: 0 !important;
-  }
+  } */
 }
 
 
