@@ -45,10 +45,10 @@ img {
   /* image-rendering: -moz-crisp-edges; */
   /* image-rendering: -webkit-optimize-contrast; */
   /* image-rendering:-moz-crisp-edges;          /* Firefox        */
-  image-rendering:-o-crisp-edges;            /* Opera          */
+  /* image-rendering:-o-crisp-edges;            /* Opera          */
   /* image-rendering:-webkit-optimize-contrast; /* Safari         */
-  image-rendering: optimize-contrast;         /* CSS3 Proposed  */
-  image-rendering:crisp-edges;
+  /* image-rendering: optimize-contrast;         /* CSS3 Proposed  */
+  /* image-rendering:crisp-edges; */
   /* image-rendering: optimizeQuality; */
   -ms-interpolation-mode: bicubic;
 }
@@ -874,6 +874,16 @@ h6 > span:not(.nocolor):not(.badge) {
   opacity: 1 !important;
 }
 
+@media (max-width: 767px) {
+  #video-background {
+    min-height: 100%;
+    z-index: -1;
+  }
+  .contact-page-wrapper #footer {
+    z-index: 1;
+  }
+}
+
 .contact-page-wrapper .navbar-tagline h5,
 .contact-page-wrapper #primary-menu li a,
 .contact-page-wrapper #header i {
@@ -936,6 +946,10 @@ h6 > span:not(.nocolor):not(.badge) {
 .contact-page-wrapper footer {
   padding-top: 40px;
 }
+
+
+
+
 
 
 
