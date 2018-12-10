@@ -350,7 +350,7 @@ a, #primary-menu ul li.current > a {
 }
 
 
-@media (min-height: 950px) {
+@media (min-width: 1000px) and (min-height: 950px) {
   .slider-caption-top {
     top: 200px;
   }
@@ -365,7 +365,7 @@ a, #primary-menu ul li.current > a {
   }
 }
 
-@media (min-height: 1050px) {
+@media (min-width: 1000px) and (min-height: 1050px) {
   .slider-caption-top {
     top: 300px;
   }
@@ -380,7 +380,7 @@ a, #primary-menu ul li.current > a {
   }
 }
 
-@media (min-height: 1250px) {
+@media (min-width: 1000px) and (min-height: 1250px) {
   .slider-caption-top {
     top: 400px;
   }
@@ -395,7 +395,7 @@ a, #primary-menu ul li.current > a {
   }
 }
 
-@media (min-height: 1450px) {
+@media (min-width: 1000px) and (min-height: 1450px) {
   .slider-caption-top {
     top: 450px;
   }
