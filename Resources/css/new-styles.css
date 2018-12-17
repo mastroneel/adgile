@@ -331,6 +331,23 @@ a, #primary-menu ul li.current > a {
   color: #fff;
 }
 
+.video-overlay {
+	background-color: rgba(0,0,0,0.45);
+}
+
+/* @media (min-width: 1200px) and (max-height: 700px) {
+	.swiper_wrapper:not(.force-full-screen),
+  .swiper_wrapper:not(.force-full-screen):not(.canvas-slider-grid) .swiper-slide {
+		min-height: 725px;
+	}
+} */
+
+@media (max-height: 690px) {
+	.pulse.icon-angle-down {
+		display: none;
+	}
+}
+
 @media (max-height: 780px) {
   .slider-caption-top {
     top: 160px;
@@ -527,13 +544,69 @@ a, #primary-menu ul li.current > a {
 
 
 /* page styles */
+
+.bold-big {
+	font-family: 'Arquitecta Black';
+	font-size: 23px;
+}
+
 #headingblock {
   font-family: 'Arquitecta Black';
 }
 
-.feature-box h3 {
-  font-family: 'Arquitecta Black';
+.heading-block h2 {
+	font-size: 35px;
 }
+
+.heading-block h4 {
+	font-size: 25px;
+}
+
+.heading-block .divcenter.topmargin-lg {
+	font-size: 22px;
+}
+
+.heading-block .divcenter.topmargin-lg {
+	font-size: 22px;
+}
+
+.feature-box.fbox-plain.fbox-small h3 {
+	font-family: 'Arquitecta Black';
+	font-size: 17px;
+}
+
+.feature-box.fbox-plain.fbox-small .fbox-icon {
+	width: 36px;
+}
+
+.feature-box.fbox-plain.fbox-small .fbox-icon img {
+	width: 36px !important;
+	height: auto !important;
+}
+
+.heading-block::after {
+    border-top: 2px solid #f04238 !important;
+}
+
+@media (max-width: 1200px) {
+	.heading-block h2 {
+		font-size: 30px;
+	}
+	.heading-block h4 {
+		font-size: 20px;
+	}
+	.heading-block .divcenter.topmargin-lg {
+		font-size: 20px;
+	}
+	.bold-big {
+		font-size: 21px;
+	}
+	.feature-box.fbox-plain.fbox-small h3 {
+		font-size: 15px;
+	}
+}
+
+
 
 .contact-link {
   font-family: 'Arquitecta Book';
