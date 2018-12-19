@@ -1029,6 +1029,14 @@ h6 > span:not(.nocolor):not(.badge) {
 }
 
 
+.about-us-wrapper #top-search a i {
+	color: #fff !important;
+}
+
+.about-us-wrapper .sticky-header #top-search a i {
+	color: #0f102b !important;
+}
+
 
 .about-us-wrapper .services-section h4 span,
 .about-us-wrapper .services-section p {
