@@ -282,6 +282,11 @@ a, #primary-menu ul li.current > a {
 
 /* hero styles */
 
+.fade-img {
+  text-align: center;
+  display: none;
+}
+
 .icon-angle-down {
   font-size: 50px;
   margin-top: -15px;

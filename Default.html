@@ -141,7 +141,18 @@
 
 
                                     <div class="slider-caption slider-caption-center">
-                                        <h2 data-caption-animate="fadeInUp">Welcome to <img class="hero-logo" src="Resources/images/ie-logo.png"></h2>
+
+                                      <img class="fade-img" src="Resources/images/advanced.png" />
+                                      <img class="fade-img" src="Resources/images/adaptive.png" />
+                                      <img class="fade-img" src="Resources/images/blah.png" />
+                                      <img class="fade-img" src="Resources/images/adgile-copy.png" />
+                                      <img class="fade-img" src="Resources/images/adgile-copy-tagline.png" />
+
+
+
+
+
+                                        <!-- <h2 data-caption-animate="fadeInUp">Welcome to <img class="hero-logo" src="Resources/images/ie-logo.png"></h2> -->
 
                                         <p class="d-none d-sm-block" data-caption-animate="fadeInUp" data-caption-delay="200">Real-Time TV Effectiveness Measurement and Optimization</p>
                                     </div>
@@ -805,6 +816,30 @@ function __doPostBack(eventTarget, eventArgument) {
 
 
     <script type="text/javascript">
+      // hero animation
+
+      (function() {
+
+        var quotes = $(".fade-img");
+        var quoteIndex = -1;
+
+        function showNextQuote() {
+          ++quoteIndex;
+          quotes.eq(quoteIndex % quotes.length)
+            .fadeIn(500)
+            .delay(3000)
+            .fadeOut(500, showNextQuote);
+        }
+
+        showNextQuote();
+
+      })();
+
+
+
+
+
+
 
         jQuery(document).ready(function () {
 
