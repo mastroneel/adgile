@@ -53,15 +53,15 @@
                         <!-- Logo
                     ============================================= -->
                         <div id="logo">
-                            <a href="Default.html" class="standard-logo nav-logo-desktop">
-                                <img class="nav-logo" src="Resources/images/ie-logo-white.png" alt="Adgile Logo">
+                            <a href="Default.html" class="standard-logo nav-logo-desktop nav-logo-link">
+                                <!-- <img class="nav-logo" src="Resources/images/ie-logo-white.png" alt="Adgile Logo"> -->
                             </a>
                             <!-- <a href="Default.html" class="retina-logo">
                                 <img class="nav-logo" src="Resources/images/ie-logo-white.png" alt="Adgile Logo"> -->
                                 <!-- <img class="sticky-nav-logo" src="Resources/images/AgileLogo_RGB_Red_NoTagline.png" alt="Adgile Logo"> -->
                             <!-- </a> -->
                         </div>
-                        <a href="Default.html" class="standard-logo nav-logo-mobile" >
+                        <a href="Default.html" class="standard-logo nav-logo-mobile">
                           <img src="Resources/images/ie-logo-rednavy.png" alt="Adgile Logo">
                         </a>
                         <div class="sticky-logo-container">
@@ -142,12 +142,14 @@
 
                                     <div class="slider-caption slider-caption-center">
 
-                                      <img class="fade-img" src="Resources/images/advanced.png" />
-                                      <img class="fade-img" src="Resources/images/adaptive.png" />
-                                      <img class="fade-img" src="Resources/images/blah.png" />
-                                      <img class="fade-img" src="Resources/images/adgile-copy.png" />
-                                      <img class="fade-img" src="Resources/images/adgile-copy-tagline.png" />
-
+                                    <div class="fade-img-container">
+                                      <img class="constant-img" src="Resources/images/standalone-ad.png" />
+                                      <img class="fade-img fade-img-1" src="Resources/images/vanced.png" />
+                                      <img class="fade-img fade-img-2" src="Resources/images/aptive.png" />
+                                      <img class="fade-img fade-img-3" src="Resources/images/vertising.png" />
+                                      <img class="fade-img fade-img-4" src="Resources/images/adgile-copy.png" />
+                                      <img class="fade-img fade-img-5" src="Resources/images/tagline.png" />
+                                    </div>
 
 
 
@@ -830,10 +832,13 @@ function __doPostBack(eventTarget, eventArgument) {
             .delay(3000)
             .fadeOut(500, showNextQuote);
         }
-
+        
         showNextQuote();
 
+
       })();
+
+
 
 
 

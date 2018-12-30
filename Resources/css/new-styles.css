@@ -109,6 +109,31 @@ img {
 /* *************** */
 
 /* navigation styles */
+
+.homepage-wrapper .nav-logo-link,
+.about-us-wrapper .nav-logo-link {
+	width: 160px;
+	height: 50px;
+	background-image: url('../../Resources/images/ie-logo-white.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+}
+
+.login-page-wrapper .nav-logo-link,
+.contact-page-wrapper .nav-logo-link,
+.search-page-wrapper .nav-logo-link   {
+	width: 160px;
+	height: 50px;
+	background-image: url('../../Resources/images/ie-logo-red.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-top: 20px;
+}
+
+
+
+
 #logo {
   height: 100px;
 }
@@ -147,11 +172,16 @@ a, #primary-menu ul li.current > a {
 @media (max-width: 992px) {
   .nav-logo-mobile {
     display: block !important;
+    width: 150px !important;
+    margin: -75px auto 0 auto !important;
+    padding-bottom: 15px;
+		position: relative;
+		z-index: 10000;
   }
   .nav-logo-mobile img {
     display: block;
     width: 150px;
-    margin: -75px auto 0 auto;
+    margin: 0 auto;
     padding-bottom: 15px;
   }
 }
@@ -282,9 +312,43 @@ a, #primary-menu ul li.current > a {
 
 /* hero styles */
 
+.fade-img-container {
+	height: 140px;
+	width: 600px;
+	text-align: left;
+	margin: 0 auto;
+	overflow: visible !important;
+}
+
+.fade-img-container img {
+	height: 140px;
+	display: inline;
+}
+
+.constant-img {
+	position: relative;
+	z-index: 10;
+	margin-top: -30px;
+	margin-left: 70px;
+}
+
 .fade-img {
+	/* position: relative;
+	z-index: 1; */
+	/* height: 140px; */
+	/* width: 600px !important; */
+	/* display: inline; */
+	margin-top: -190px;
+	margin-left: 160px;
   text-align: center;
   display: none;
+}
+
+.fade-img-stay,
+.fade-img-stay-2 {
+	/* position: relative;
+	z-index: 1; */
+	display: none;
 }
 
 .icon-angle-down {
@@ -623,10 +687,7 @@ a, #primary-menu ul li.current > a {
 
 
 
-.contact-link {
-  font-family: 'Arquitecta Book';
-  background-color: #f04238 !important;
-}
+
 
 /* home contact section */
 
@@ -1034,8 +1095,10 @@ h6 > span:not(.nocolor):not(.badge) {
 }
 
 
-.about-us-wrapper #top-search a i {
-	color: #fff !important;
+@media (min-width: 993px) {
+	.about-us-wrapper #top-search a i {
+		color: #fff !important;
+	}
 }
 
 .about-us-wrapper .sticky-header #top-search a i {
@@ -1105,6 +1168,61 @@ h6 > span:not(.nocolor):not(.badge) {
 .about-header-text h5 {
   color: #fff !important;
 }
+
+
+.about-us-wrapper .contact-link {
+  font-family: 'Arquitecta Book';
+  background-color: #f04238 !important;
+}
+
+.about-us-wrapper .contact-link .button-container {
+    width: 300px;
+    margin: 40px auto 20px auto;
+    text-align: center;
+}
+
+.about-us-wrapper .contact-link .button-container .navy-button {
+    background: #0f102b;
+    border-radius: 4px 0 0 4px;
+    padding: 15px 20px 15px 20px;
+    transition: 0.2s;
+		color: #fff !important;
+}
+
+.about-us-wrapper .contact-link .button-container:hover .navy-button {
+	background: #addab8 !important;
+	transition: 0.2s;
+}
+
+.about-us-wrapper .contact-link .button-container .bolt-button-container {
+    height: 100%;
+    text-align: center;
+		background: #57c5cb !important;
+		transition: 0.2s;
+}
+
+.about-us-wrapper .contact-link .button-container:hover .bolt-button-container {
+		background: #0f102b !important;
+		transition: 0.2s;
+}
+
+@media (max-width: 992px) {
+	.about-us-wrapper .contact-link {
+		padding-top: 40px;
+	}
+}
+
+@media (max-width: 767px) {
+	.about-us-wrapper .contact-link {
+		padding-top: 45px;
+	}
+}
+
+
+
+
+
+
 
 
 /* ***************** */
