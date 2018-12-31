@@ -144,11 +144,11 @@
 
                                     <div class="fade-img-container">
                                       <img class="constant-img" src="Resources/images/standalone-ad.png" />
-                                      <img class="fade-img fade-img-1" src="Resources/images/vanced.png" />
-                                      <img class="fade-img fade-img-2" src="Resources/images/aptive.png" />
-                                      <img class="fade-img fade-img-3" src="Resources/images/vertising.png" />
-                                      <img class="fade-img fade-img-4" src="Resources/images/adgile-copy.png" />
-                                      <img class="fade-img fade-img-5" src="Resources/images/tagline.png" />
+                                      <img class="fade-img hidden fade-img-1" src="Resources/images/vanced.png" />
+                                      <img class="fade-img hidden fade-img-2" src="Resources/images/aptive.png" />
+                                      <img class="fade-img hidden fade-img-3" src="Resources/images/vertising.png" />
+                                      <img class="hidden fade-img-4" src="Resources/images/adgile-copy.png" />
+                                      <img class="hidden fade-img-5" src="Resources/images/tagline.png" />
                                     </div>
 
 
@@ -822,21 +822,57 @@ function __doPostBack(eventTarget, eventArgument) {
 
       (function() {
 
-        var quotes = $(".fade-img");
-        var quoteIndex = -1;
+        // var quotes = $(".fade-img");
+        // var quoteIndex = -1;
+        //
+        // function showNextQuote() {
+        //   ++quoteIndex;
+        //   quotes.eq(quoteIndex % quotes.length)
+        //     .fadeIn(500)
+        //     .delay(3000)
+        //     .fadeOut(500, showNextQuote);
+        // }
+        //
+        // showNextQuote();
 
-        function showNextQuote() {
-          ++quoteIndex;
-          quotes.eq(quoteIndex % quotes.length)
-            .fadeIn(500)
-            .delay(3000)
-            .fadeOut(500, showNextQuote);
-        }
-        
-        showNextQuote();
+
+        // function showImages() {
+        //
+        //   $(".fade-img").eq().fadeIn(500);
+        // }
+        //
+        // showImages();
+
+
+        // $(document).ready(function () {
+        //     $(".fade-img").fadeIn(500).removeClass('hidden');
+        // });
+
+
+        $(document).ready(function(){
+          setTimeout(function(){
+            $(".fade-img-1").fadeIn(500).removeClass('hidden').delay(2000).fadeOut(500);
+          }, 3000);
+          setTimeout(function(){
+            $(".fade-img-2").fadeIn(500).removeClass('hidden').delay(2000).fadeOut(500);
+          }, 6500);
+          setTimeout(function(){
+            $(".fade-img-3").fadeIn(500).removeClass('hidden').delay(2000).fadeOut(500);
+          }, 10000);
+          setTimeout(function(){
+            $(".fade-img-4").fadeIn(500).removeClass('hidden');
+            $(".constant-img").fadeOut(500).addClass('hidden');
+          }, 13500);
+          setTimeout(function(){
+            $(".fade-img-5").fadeIn(500).removeClass('hidden');
+          }, 16000);
+        });
 
 
       })();
+
+
+
 
 
 
