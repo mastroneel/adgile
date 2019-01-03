@@ -392,7 +392,7 @@ a, #primary-menu ul li.current > a {
 
 @media (max-width: 575px) {
 	.fade-img-container {
-		
+
 	}
 	.constant-img,
 	.fade-img-4,
@@ -1064,6 +1064,11 @@ a, #primary-menu ul li.current > a {
 
 .about-us-wrapper .sticky-header #primary-menu a {
   color: #0f102b !important;
+}
+
+
+.about-us-wrapper .sticky-header #primary-menu .menu-pos-invert li a{
+	color: #fff !important;
 }
 
 
