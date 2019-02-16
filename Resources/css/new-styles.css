@@ -1148,6 +1148,32 @@ a, #primary-menu ul li.current > a {
 /* *************** */
 /* about us styles */
 /* *************** */
+#page-title.page-title-parallax.services-hero {
+	background:
+    -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../Resources/images/services-bg.png");
+  background:
+      -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../../Resources/images/services-bg.png");
+  background:
+      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../../Resources/images/services-bg.png");
+	background-size: cover;
+	background-position: center center;
+	height: 60vh;
+	min-height: 540px;
+}
+
+#header.transparent-header + #page-title.page-title-parallax .container {
+	padding-top: 0;
+	margin-top: -40px;
+}
+
+#header.transparent-header + #page-title.page-title-parallax .container p {
+	margin-top: 20px;
+	line-height: 1.2;
+	margin-left: 20px;
+}
 
 /* .about-us-wrapper #primary-menu ul li > a,
 .about-us-wrapper .navbar-tagline h5 {
