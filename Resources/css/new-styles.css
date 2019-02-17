@@ -1277,6 +1277,28 @@ h6 > span:not(.nocolor):not(.badge) {
 	font-size: 25px;
 }
 
+.about-us-wrapper .heading-block h4 {
+	font-size: 25px;
+	text-transform: none;
+}
+
+.about-us-wrapper .heading-block span {
+	margin-bottom: 20px;
+}
+
+
+.feature-box.fbox-plain.fbox-small {
+	min-height: 250px;
+}
+
+.learn-more-link {
+	font-family: 'Arquitecta Black';
+	text-decoration: underline !important;
+	font-size: 18px;
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+}
 
 @media (min-width: 993px) {
 	.about-us-wrapper #top-search a i {
