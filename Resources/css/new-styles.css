@@ -111,10 +111,11 @@ img {
 /* navigation styles */
 
 .homepage-wrapper .nav-logo-link,
-.about-us-wrapper .nav-logo-link {
+.about-us-wrapper .nav-logo-link,
+.contact-page-wrapper .nav-logo-link {
 	width: 160px;
 	height: 50px;
-	background-image: url('../../Resources/images/ie-logo-white.png');
+	background-image: url('../../Resources/images/ie-logo-white.png') !important;
 	background-size: contain;
 	background-repeat: no-repeat;
 	margin-top: 20px;
@@ -122,7 +123,7 @@ img {
 
 .login-page-wrapper .nav-logo-link,
 .contact-page-wrapper .nav-logo-link,
-.search-page-wrapper .nav-logo-link   {
+.search-page-wrapper .nav-logo-link  {
 	width: 160px;
 	height: 50px;
 	background-image: url('../../Resources/images/ie-logo-red.png');
@@ -839,6 +840,7 @@ a, #primary-menu ul li.current > a {
 .home-contact-section {
 	/* background-color: #f04238; */
 	padding-top: 40px;
+	background-color: #fff !important;
 }
 
 .home-contact-section h3 {
@@ -899,7 +901,8 @@ a, #primary-menu ul li.current > a {
 	margin-bottom: 30px;
 }
 
-.home-contact-section #ContentPlaceHolder1_btn_Send {
+.home-contact-section #ContentPlaceHolder1_btn_Send,
+.contact-page-wrapper #ContentPlaceHolder1_btn_Send {
 	background: none;
 	border: none;
 	padding: 0;
@@ -909,16 +912,19 @@ a, #primary-menu ul li.current > a {
   color: #fff !important; */
 }
 
-.home-contact-section #ContentPlaceHolder1_btn_Send:hover {
+.home-contact-section #ContentPlaceHolder1_btn_Send:hover,
+.contact-page-wrapper #ContentPlaceHolder1_btn_Send:hover {
 	background: none !important;
 	border: none !important;
 }
 
-.home-contact-section #ContentPlaceHolder1_btn_Send:hover .navy-button {
+.home-contact-section #ContentPlaceHolder1_btn_Send:hover .navy-button,
+.contact-page-wrapper #ContentPlaceHolder1_btn_Send:hover .navy-button {
 	background: #f04238;
 }
 
-.home-contact-section #ContentPlaceHolder1_btn_Send:hover .bolt-button-container {
+.home-contact-section #ContentPlaceHolder1_btn_Send:hover .bolt-button-container,
+.contact-page-wrapper #ContentPlaceHolder1_btn_Send:hover .bolt-button-container {
 	background: #57c5cb;
 }
 
@@ -1189,7 +1195,8 @@ a, #primary-menu ul li.current > a {
 }
 
 
-.about-us-wrapper .sticky-header #primary-menu .menu-pos-invert li a{
+.about-us-wrapper .sticky-header #primary-menu .menu-pos-invert li a,
+.contact-page-wrapper .sticky-header #primary-menu .menu-pos-invert li a {
 	color: #fff !important;
 }
 
@@ -1499,9 +1506,50 @@ h6 > span:not(.nocolor):not(.badge) {
 /* contact page styles */
 /* ******************* */
 
+.about-hero {
+	background:
+    -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../Resources/images/about-bg.png") !important;
+  background:
+      -o-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../../Resources/images/about-bg.png") !important;
+  background:
+      linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../../Resources/images/about-bg.png") !important;
+	background-size: cover;
+	background-position: center center;
+	height: 60vh;
+	min-height: 540px;
+}
+
 .contact-page-wrapper {
   max-width: 100vw;
   overflow: hidden;
+}
+
+.less-width {
+	width: 50%;
+	min-width: 290px;
+	margin: 0 auto;
+}
+
+.contact-page-wrapper .about-us-logo,
+.tv-insight {
+	display: inline-flex;
+}
+
+.tv-insight {
+	margin-left: 20px !important;
+	margin-bottom: -40px !important;
+}
+
+#contact-content {
+	background: #f9f9f9;
+}
+
+#contact-content p {
+	font-size: 18px;
+	margin-top: -20px;
 }
 
 .contact-go-to-top {
@@ -1521,7 +1569,7 @@ h6 > span:not(.nocolor):not(.badge) {
 .contact-page-wrapper .navbar-tagline h5,
 .contact-page-wrapper #primary-menu li a,
 .contact-page-wrapper #header i {
-  color: #0f102b;
+  color: #fff;
 }
 
 .contact-page-wrapper #page-title h1 {
@@ -1542,7 +1590,7 @@ h6 > span:not(.nocolor):not(.badge) {
 }
 
 .contact-page-wrapper label {
-  font-family: 'Arquitecta Black';
+  font-family: 'Arquitecta Book';
   color: #0f102b;
   font-size: 16px;
   text-transform: uppercase;
@@ -1552,7 +1600,7 @@ h6 > span:not(.nocolor):not(.badge) {
 .contact-page-wrapper input,
 .contact-page-wrapper textarea,
 .contact-page-wrapper select {
-  border: 2px solid #0f102b !important;
+  border: 1px solid #0f102b !important;
   border-radius: 5px !important;
   /* border-bottom: 3px solid #0f102b; */
   color: #0f102b !important;
@@ -1566,12 +1614,12 @@ h6 > span:not(.nocolor):not(.badge) {
   font-family: 'Arquitecta Book';
 } */
 
-.contact-page-wrapper #ContentPlaceHolder1_btn_Send {
+/* .contact-page-wrapper #ContentPlaceHolder1_btn_Send {
   background: #f04238 !important;
   border-color: #f04238 !important;
   font-family: 'Arquitecta Black';
   color: #fff !important;
-}
+} */
 
 .contact-page-wrapper p {
   color: #0f102b !important;
@@ -1850,6 +1898,13 @@ h6 > span:not(.nocolor):not(.badge) {
 	width: 60px;
 	margin: 80px auto;
 	border-top: 2px solid #0f102b;
+}
+
+.red-underline {
+	height: 0;
+	width: 60px;
+	margin: 40px auto;
+	border-top: 2px solid #f04238;
 }
 
 .white-section {
