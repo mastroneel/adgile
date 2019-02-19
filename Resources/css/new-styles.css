@@ -161,7 +161,7 @@ a, #primary-menu ul li.current > a {
   margin-top: 20px;
 }
 
-@media (min-width: 993px) {
+@media (min-width: 1101px) {
   .nav-logo-desktop {
     display: block !important;
   }
