@@ -317,6 +317,12 @@ a, #primary-menu ul li.current > a {
 
 /* hero styles */
 
+.video-wrap {
+	width: 110vw !important;
+	height: 100vh !important;
+	min-height: 600px;
+}
+
 .one-page-arrow {
 	bottom: 40px;
 }
