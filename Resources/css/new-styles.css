@@ -1239,6 +1239,7 @@ a, #primary-menu ul li.current > a {
       linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
       url("../../Resources/images/services-bg.png");
 	background-size: cover;
+	background-position: center !important;
 	background-repeat: no-repeat;
 	height: 60vh;
 	min-height: 540px;
@@ -1642,7 +1643,7 @@ h6 > span:not(.nocolor):not(.badge) {
       linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
       url("../../Resources/images/about-bg.png") !important;
 	background-size: cover !important;
-	background-position: center center;
+	background-position: center;
 	background-repeat: no-repeat !important;
 	height: 60vh;
 	min-height: 540px;
