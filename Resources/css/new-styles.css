@@ -397,6 +397,21 @@ a, #primary-menu ul li.current > a {
 	.fade-img {
 		margin-left: 215px;
 	}
+	.slider-caption.slider-caption-center p.hero-info {
+		font-size: 20px !important;
+		margin-top: -50px;
+	}
+	.slider-caption.slider-caption-center p.hero-info-small {
+		font-size: 18px !important;
+	}
+	.learn-more-button {
+		padding: 5px !important;
+		width: 150px;
+		margin: 0 auto;
+		font-size: 20px !important;
+		display: block;
+		margin-top: 20px !important;
+	}
 }
 
 .mobile-hero-logo {
@@ -411,7 +426,23 @@ a, #primary-menu ul li.current > a {
 		display: block;
 	}
 	.mobile-hero-logo img {
-		width: 250px;
+		width: 200px;
+		margin-top: -175px;
+	}
+	.slider-caption.slider-caption-center p.hero-info {
+		font-size: 20px !important;
+		margin-top: -70px;
+	}
+	.slider-caption.slider-caption-center p.hero-info-small {
+		font-size: 18px !important;
+	}
+	.learn-more-button {
+		padding: 5px !important;
+		width: 150px;
+		margin: 0 auto;
+		font-size: 20px !important;
+		display: block;
+		margin-top: 20px !important;
 	}
 }
 
@@ -638,7 +669,7 @@ a, #primary-menu ul li.current > a {
   .swiper_wrapper:not(.force-full-screen),
   .swiper_wrapper:not(.force-full-screen):not(.canvas-slider-grid)
   .swiper-slide {
-    height: 400px !important;
+    min-height: 450px !important;
   }
   #slide-video {
     width: auto;
@@ -656,6 +687,7 @@ a, #primary-menu ul li.current > a {
   }
   #slider .btn-group {
     min-width: 400px;
+		min-height: 450px;
   }
   #mobilesearch {
     display: block !important;
@@ -729,6 +761,10 @@ a, #primary-menu ul li.current > a {
 
 
 /* page styles */
+
+.padding-container {
+	padding: 0 25px;
+}
 
 .home-icons-container {
 	width: 90%;
@@ -863,7 +899,22 @@ a, #primary-menu ul li.current > a {
 	/* background-color: #f04238; */
 	padding-top: 40px;
 	background-color: #fff !important;
-	margin-bottom: -60px;
+}
+
+@media (min-width: 768px) {
+	.home-contact-section {
+		margin-bottom: -60px;
+	}
+}
+
+@media (max-width: 575px) {
+	.home-contact-section {
+		margin-bottom: -10px;
+		max-height: 800px;
+	}
+	footer {
+		margin-top: 0 !important;
+	}
 }
 
 .home-contact-section h3 {
@@ -1188,7 +1239,7 @@ a, #primary-menu ul li.current > a {
       linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
       url("../../Resources/images/services-bg.png");
 	background-size: cover;
-	background-position: center center;
+	background-repeat: no-repeat;
 	height: 60vh;
 	min-height: 540px;
 }
@@ -1202,6 +1253,27 @@ a, #primary-menu ul li.current > a {
 	margin-top: 20px;
 	line-height: 1.2;
 	margin-left: 20px;
+}
+
+@media (max-width: 500px) {
+	#page-title.page-title-parallax.about-hero,
+	#page-title.page-title-parallax.services-hero {
+		padding: 250px 0 0 0 !important;
+		min-height: 450px !important;
+		max-height: 450px !important;
+		background-position: center center !important;
+	}
+	#page-title.page-title-parallax.services-hero h1 {
+		line-height: 1;
+	}
+	#page-title.page-title-parallax.about-hero h1 {
+		line-height: 1;
+		font-size: 30px;
+		margin-top: 20px;
+	}
+	#header.transparent-header + #page-title.page-title-parallax .container {
+		margin-top: -100px;
+	}
 }
 
 /* .about-us-wrapper #primary-menu ul li > a,
@@ -1317,8 +1389,23 @@ h6 > span:not(.nocolor):not(.badge) {
 }
 
 
-.feature-box.fbox-plain.fbox-small {
-	min-height: 250px;
+@media (min-width: 768px) {
+	.feature-box.fbox-plain.fbox-small {
+		min-height: 250px;
+	}
+}
+
+@media (max-width: 767px) {
+	.feature-box .fbox-icon {
+		position: relative !important;
+		display: block !important;
+		width: 36px !important;
+		margin: 30px auto 10px auto !important;
+	}
+	.home-icons-container {
+		margin-top: 0px !important;
+		margin-bottom: 60px;
+	}
 }
 
 .learn-more-link {
@@ -1328,6 +1415,21 @@ h6 > span:not(.nocolor):not(.badge) {
 	position: absolute;
 	bottom: 0px;
 	left: 0;
+}
+
+@media (max-width: 767px) {
+	.learn-more-link {
+		position: relative;
+		text-align: center;
+	}
+	.about-us-wrapper .feature-box.fbox-small.fbox-plain {
+		text-align: center;
+		padding-left: 0;
+		margin-top: 30px;
+	}
+	.services-section {
+		padding-bottom: 0px;
+	}
 }
 
 @media (min-width: 993px) {
