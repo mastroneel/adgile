@@ -63,6 +63,10 @@ img {
 	letter-spacing: 1px;
 }
 
+.semi-bold {
+	font-weight: bold;
+}
+
 .center {
 	text-align: center;
 }
@@ -715,9 +719,9 @@ a, #primary-menu ul li.current > a {
 .home-icons-container {
 	width: 90%;
 	min-width: 300px;
+	max-width: 1200px;
 	margin: 0 auto;
 }
-
 .stats-section {
 	background-color: #F9F9F9;
 	width: 100vw;
@@ -783,6 +787,10 @@ a, #primary-menu ul li.current > a {
 	font-size: 25px;
 }
 
+.navy.advertisers.no-caps {
+	margin-bottom: -20px;
+}
+
 .advertisers {
 	font-size: 30px;
 }
@@ -841,6 +849,7 @@ a, #primary-menu ul li.current > a {
 	/* background-color: #f04238; */
 	padding-top: 40px;
 	background-color: #fff !important;
+	margin-bottom: -60px;
 }
 
 .home-contact-section h3 {
@@ -1516,8 +1525,9 @@ h6 > span:not(.nocolor):not(.badge) {
   background:
       linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
       url("../../Resources/images/about-bg.png") !important;
-	background-size: cover;
+	background-size: cover !important;
 	background-position: center center;
+	background-repeat: no-repeat !important;
 	height: 60vh;
 	min-height: 540px;
 }
