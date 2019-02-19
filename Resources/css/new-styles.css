@@ -317,6 +317,10 @@ a, #primary-menu ul li.current > a {
 
 /* hero styles */
 
+.one-page-arrow {
+	bottom: 40px;
+}
+
 .fade-img-container {
 	height: 140px;
 	width: 600px;
@@ -516,6 +520,16 @@ a, #primary-menu ul li.current > a {
 @media (max-height: 690px) {
 	.pulse.icon-angle-down {
 		display: none;
+	}
+}
+
+@media (max-height: 700px) and (min-width: 500px) {
+	.swiper_wrapper:not(.force-full-screen),
+  .swiper_wrapper:not(.force-full-screen):not(.canvas-slider-grid) .swiper-slide {
+    min-height: 600px !important;
+  }
+	#slider {
+		min-height: 600px !important;
 	}
 }
 
