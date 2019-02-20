@@ -895,7 +895,14 @@ a, #primary-menu ul li.current > a {
 	}
 }
 
-
+@media (max-width: 767px) {
+	.feature-box {
+		padding: 0 !important;
+	}
+	.feature-box.fbox-plain.fbox-small {
+		padding-left: 0 !important;
+	}
+}
 
 
 
@@ -1012,7 +1019,20 @@ a, #primary-menu ul li.current > a {
   color: #0f102b !important;
 }
 
-
+@media (max-width: 400px) {
+	.navy-button {
+		font-size: 12px;
+		padding: 10px;
+		height: 20px;
+	}
+	.bolt-button-container {
+		padding: 14px !important;
+		height: 40px !important;
+	}
+	.bolt-button {
+		height: 18px;
+	}
+}
 
 
 
@@ -1431,8 +1451,11 @@ h6 > span:not(.nocolor):not(.badge) {
 	}
 	.about-us-wrapper .feature-box.fbox-small.fbox-plain {
 		text-align: center;
-		padding-left: 0;
+		padding-left: 0 !important;
 		margin-top: 30px;
+	}
+	.feature-box.fbox-plain.fbox-small p {
+		margin-left: 0 !important;
 	}
 	.services-section {
 		padding-bottom: 0px;
