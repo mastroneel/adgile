@@ -776,7 +776,7 @@ a, #primary-menu ul li.current > a {
 	width: 90%;
 	min-width: 300px;
 	max-width: 1200px;
-	margin: 0 auto;
+	margin: 20px auto;
 }
 .stats-section {
 	background-color: #F9F9F9;
