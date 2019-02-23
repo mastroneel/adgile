@@ -7,6 +7,11 @@
 @font-face {
     font-family: 'Arquitecta Black';
     src: url('fonts/arquitecta-black.ttf');
+} 
+
+@font-face {
+    font-family: 'Arquitecta Bold';
+    src: url('fonts/arquitecta-bold.ttf');
 } */
 
 @font-face {
@@ -25,6 +30,14 @@
   	     url('fonts/arquitecta-black.ttf')  format('truetype'); /* Safari, Android, iOS */
   	}
 
+      @font-face {
+    font-family: 'Arquitecta Bold';
+    src: url('fonts/arquitecta-bold.eot'); /* IE9 Compat Modes */
+    src: url('fonts/arquitecta-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/arquitecta-bold.woff') format('woff'), /* Modern Browsers */
+         url('fonts/arquitecta-bold.ttf')  format('truetype'); /* Safari, Android, iOS */
+    }
+
 /* general styles */
 
 body {
@@ -33,7 +46,7 @@ body {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Arquitecta Black';
+  font-family: 'Arquitecta Bold';
 }
 
 input, p {
@@ -828,7 +841,7 @@ a, #primary-menu ul li.current > a {
 }
 
 #headingblock {
-  font-family: 'Arquitecta Black';
+  font-family: 'Arquitecta Bold';
 }
 
 .no-caps {
@@ -837,12 +850,10 @@ a, #primary-menu ul li.current > a {
 
 .heading-block h2 {
 	font-size: 35px;
-  font-weight: 400;
 }
 
 .heading-block h4 {
 	font-size: 26px;
-  font-weight: 400;
 
 }
 
