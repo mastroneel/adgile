@@ -143,7 +143,7 @@
                                     <div class="slider-caption slider-caption-center">
 
                                     <div class="fade-img-container">
-                                      <img class="constant-img" src="Resources/images/standalone-ad.png" />
+                                      <img class="constant-img hidden" src="Resources/images/standalone-ad.png" />
                                       <img class="fade-img hidden fade-img-1" src="Resources/images/vanced.png" />
                                       <img class="fade-img hidden fade-img-2" src="Resources/images/aptive.png" />
                                       <img class="fade-img hidden fade-img-3" src="Resources/images/vertising.png" />
@@ -943,22 +943,42 @@ function __doPostBack(eventTarget, eventArgument) {
 
 
         $(document).ready(function(){
-          setTimeout(function(){
-            $(".fade-img-1").fadeIn(500).removeClass('hidden').delay(2000).fadeOut(500);
-          }, 3000);
-          setTimeout(function(){
-            $(".fade-img-2").fadeIn(500).removeClass('hidden').delay(2000).fadeOut(500);
-          }, 6500);
-          setTimeout(function(){
-            $(".fade-img-3").fadeIn(500).removeClass('hidden').delay(2000).fadeOut(500);
-          }, 10000);
-          setTimeout(function(){
-            $(".fade-img-4").fadeIn(500).removeClass('hidden');
-            $(".constant-img").fadeOut(500).addClass('hidden');
-          }, 13500);
-          setTimeout(function(){
-            $(".fade-img-5").fadeIn(500).removeClass('hidden');
-          }, 16000);
+
+            function rotateMessaging(){
+              // Start with the Adgile logo and tagline
+              setTimeout(function(){
+                $(".fade-img-4").fadeIn(500).removeClass('hidden').delay(1500).fadeOut(500);
+                $(".constant-img").addClass('hidden');
+              }, 2000);
+              setTimeout(function(){
+                $(".fade-img-5").fadeIn(500).removeClass('hidden').delay(1500).fadeOut(500);
+              }, 2000);
+              // Loop through
+              setTimeout(function(){
+                $(".constant-img").fadeIn(500).removeClass('hidden').delay(7500).fadeOut(500);
+                $(".fade-img-1").fadeIn(500).removeClass('hidden').delay(1500).fadeOut(500);
+              }, 4500);
+              setTimeout(function(){
+                $(".fade-img-2").fadeIn(500).removeClass('hidden').delay(1500).fadeOut(500);
+              }, 7500);
+              setTimeout(function(){
+                $(".fade-img-3").fadeIn(500).removeClass('hidden').delay(1500).fadeOut(500);
+              }, 10500);
+              setTimeout(function(){
+                $(".fade-img-4").fadeIn(500).removeClass('hidden');
+              }, 13500);
+              setTimeout(function(){
+                $(".fade-img-5").fadeIn(500).removeClass('hidden');
+              }, 14500);
+            }
+            // Main function call
+            rotateMessaging();
+            // Loop through infinitely
+            setInterval(function(){
+                $(".fade-img-4").fadeIn(500).removeClass('hidden');
+                $(".fade-img-5").fadeIn(500).removeClass('hidden');
+                rotateMessaging();
+            }, 16000);
         });
 
 
