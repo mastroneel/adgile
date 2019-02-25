@@ -876,6 +876,7 @@ a, #primary-menu ul li.current > a {
 .feature-box.fbox-plain.fbox-small h3 {
 	font-family: 'Arquitecta Black';
 	font-size: 17px;
+  text-transform: uppercase;
 }
 
 .feature-box.fbox-plain.fbox-small .fbox-icon {
@@ -1504,7 +1505,8 @@ h6 > span:not(.nocolor):not(.badge) {
 		margin-right: 5px;
 	}
 	.about-us-wrapper .heading-block h4 {
-		font-size: 25px;
+		font-size: 24px;
+    line-height: 1.3;
 	}
 }
 
