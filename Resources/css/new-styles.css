@@ -1451,11 +1451,11 @@ h6 > span:not(.nocolor):not(.badge) {
 }
 
 .learn-more-link {
-	font-family: 'Arquitecta Black';
+	font-family: 'Arquitecta Bold';
 	text-decoration: underline !important;
 	font-size: 18px;
 	position: absolute;
-	bottom: 0px;
+	bottom: 30px;
 	left: 0;
 }
 
@@ -1463,6 +1463,7 @@ h6 > span:not(.nocolor):not(.badge) {
 	.learn-more-link {
 		position: relative;
 		text-align: center;
+    bottom:0px;
 	}
 	.about-us-wrapper .feature-box.fbox-small.fbox-plain {
 		text-align: center;
