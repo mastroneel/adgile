@@ -1972,6 +1972,7 @@ h6 > span:not(.nocolor):not(.badge) {
 	color: #fff;
 	font-size: 70px;
 	line-height: 1;
+  padding-top: 30px;
 }
 
 @media (min-width: 1500px) {
