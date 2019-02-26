@@ -1828,6 +1828,9 @@ h6 > span:not(.nocolor):not(.badge) {
 	#header.transparent-header + #page-title.page-title-parallax .container {
 		margin-top: -150px;
 	}
+	.about-us-logo {
+		display: none !important;
+	}
 }
 
 
