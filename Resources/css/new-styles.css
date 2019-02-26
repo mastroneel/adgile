@@ -1750,6 +1750,12 @@ h6 > span:not(.nocolor):not(.badge) {
   color: #0f102b;
 }
 
+.contact-page-wrapper #page-title p {
+  font-size: 24px;
+  line-height: 2;
+  margin-top: -20px;
+}
+
 .contact-page-wrapper #page-title #lbl_PageSubTitle {
   font-family: 'Arquitecta Book';
   color: #f04238;
@@ -1795,7 +1801,7 @@ h6 > span:not(.nocolor):not(.badge) {
 } */
 
 .contact-page-wrapper p {
-  color: #0f102b !important;
+  /*color: #0f102b !important;*/
 }
 
 .contact-page-wrapper footer {
