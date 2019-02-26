@@ -7,7 +7,7 @@
 @font-face {
     font-family: 'Arquitecta Black';
     src: url('fonts/arquitecta-black.ttf');
-} 
+}
 
 @font-face {
     font-family: 'Arquitecta Bold';
@@ -1808,6 +1808,27 @@ h6 > span:not(.nocolor):not(.badge) {
   padding-top: 40px;
 }
 
+
+@media (max-width: 767px) {
+	#header.transparent-header + #page-title.page-title-parallax .container p {
+		margin-left: 0;
+	}
+	#header.transparent-header + #page-title.page-title-parallax .container {
+		margin-top: -100px;
+	}
+}
+
+@media (max-width: 550px) {
+	#header.transparent-header + #page-title.page-title-parallax .container p.hero-info {
+		font-size: 28px !important;
+	}
+	#header.transparent-header + #page-title.page-title-parallax .container p {
+		margin-left: 0;
+	}
+	#header.transparent-header + #page-title.page-title-parallax .container {
+		margin-top: -150px;
+	}
+}
 
 
 
